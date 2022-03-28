@@ -1,0 +1,29 @@
+.header-products{
+	position: relative;
+}
+.header-products h2{
+	position: absolute;
+    top: 30%;
+    left: 40%;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 500;
+}
+.header-products p{
+	position: absolute;
+    top: 65%;
+    left: 560px;
+    color: #000000;
+    font-size: 16px;
+}
+.header-products a{
+	color: #000000;
+    opacity: 0.7;
+    font-weight: 500;
+}
+.header-products a:hover{
+    text-decoration: none;
+    color: red;
+    opacity: 0.7;
+    font-weight: 500;
+}

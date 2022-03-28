@@ -1,0 +1,344 @@
+.header-products h2 {
+  position: absolute;
+  top: 30%;
+  left: 31%;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.header-products p {
+  position: absolute;
+  top: 65%;
+  left: 460px;
+  color: #000000;
+  font-size: 16px;
+}
+
+.header {
+  height: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  top: 97%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.content {
+  margin-top: 85px;
+  height: auto;
+  margin-bottom: 1050px;
+}
+
+.content .col-lg-6 {
+  padding: 0px 40px;
+}
+
+.content .col-lg-6 h1 {
+  color: #222;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 35px;
+  margin: -5px 0 33px;
+  text-transform: capitalize;
+}
+
+.checked {
+  color: yellow;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price .price-ct span {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #000;
+  line-height: 22px;
+  padding-right: 20px;
+}
+
+.price .no span {
+  font-size: 10px;
+  color: #9f9f9f;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.price .icon span {
+  font-size: 13px;
+  color: #9f9f9f;
+}
+
+.title-ctsp {
+  margin-top: 30px;
+}
+
+.title-ctsp .row-ctsp {
+  margin-left: -15px;
+  padding-bottom: 75px;
+}
+
+.title-ctsp p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #494949;
+  margin-bottom: 27px;
+  width: 570px;
+  font-family: Josefin sans;
+}
+
+.row-ctsp .col-lg-3 span {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 20px;
+  color: #343434;
+  letter-spacing: 0.01px;
+}
+
+.row-ctsp .col-lg-9 .label-sku span {
+  font-weight: 700;
+  color: #f66;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.row-ctsp .col-lg-9 .linksp a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #535353;
+}
+
+.row-ctsp .col-lg-9 .linksp a:hover {
+  text-decoration: none;
+  color: #f66;
+}
+
+.watch-availabel .title-color span {
+  margin-bottom: 18px;
+  font-size: 12px;
+  color: #222;
+  font-weight: 400;
+}
+
+.color label {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.color label.red {
+  background-color: red;
+}
+
+.color label.black {
+  background-color: black;
+}
+
+.color label.yellow {
+  background-color: yellow;
+}
+
+.color label.blue {
+  background-color: blue;
+}
+
+.ml {
+  margin-top: 25px;
+}
+
+.ml label {
+  width: 45px;
+  height: 40px;
+  border: 1px solid black;
+  line-height: 40px;
+  text-align: center;
+  font-size: small;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.ml label:hover {
+  background-color: #000000;
+  color: #f2f2f2;
+}
+
+.textara .ara input {
+  width: 562.5px;
+  height: 113px;
+}
+
+.textara {
+  margin: 30px 0;
+}
+
+.total .text-total span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 20px;
+  color: #343434;
+  letter-spacing: 0.01px;
+  min-width: 134px;
+  display: inline-block;
+}
+
+.total .count-total {
+  margin: 10px 0 0;
+}
+
+.total .count-total button {
+  height: 48px;
+  margin-right: -5px;
+}
+
+.total .count-total {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.total .count-total button#decrease {
+  width: 30px;
+  border: none;
+}
+
+.total .count-total button#count {
+  width: 48px;
+  border: none;
+}
+
+.total .count-total button#add {
+  width: 30px;
+  border: none;
+}
+
+button#add-bag {
+  margin-left: 30px;
+  height: 50px;
+  line-height: 50px;
+  width: 440px;
+  background: #dcdcdc;
+  border: none;
+}
+
+button#add-bag:hover {
+  color: #f2f2f2;
+  background-color: #000000;
+}
+
+.bought button {
+  border-radius: 0;
+  background-color: #222;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  margin-top: 10px;
+  width: 564px;
+  height: 48px;
+  color: #f2f2f2;
+  border: none;
+}
+
+.bought button:hover {
+  background-color: #f66;
+}
+
+.footer {
+  margin-top: 50px;
+}

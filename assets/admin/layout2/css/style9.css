@@ -1,0 +1,82 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 900px) {
+  .column  {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column  {
+    width: 100%;
+  }
+}
+.list-products-content{
+  margin-top: 80px;
+}
+.product-title1{
+  margin: 15px auto;
+}
+.product-title1 a{
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+.product-title1 a:hover{
+  color: black;
+  text-decoration: none;
+}
+input#checkbox{
+  background-color: #000000;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #dbdbdb;
+  display: block;
+  cursor: pointer;
+}
+.title-one span{
+  font-weight: 800;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  line-height: 28px;
+  color: #010101;
+  margin: 0 10px;
+}
+.title-one{
+  display: flex;
+  flex-wrap: wrap;
+}
+.title-two span{
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 28px;
+  font-size: 12px;
+  color: #1a1a1a;
+  margin-left: 10px;
+}
+.title-two{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-products-item ul {
+  padding-left: 5px;
+  padding-top: 20px;
+}
+.list-products-item ul li{
+  padding-bottom: 15px;
+}
+.footer{
+  margin-top: 1850px;
+  background-color: #e8e5da;
+  height: 600px;
+}

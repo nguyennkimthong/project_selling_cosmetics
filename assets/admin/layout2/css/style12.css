@@ -1,0 +1,14 @@
+.title-block {
+    text-transform: uppercase;
+}
+input#cbx{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.header-products h2{
+    left: 35%;
+}
+.header-products p{
+    left: 41%;
+}

@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides1 {
+  display: none;
+  margin-top: 65px;
+  padding: 0 5px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor1 {
+  cursor: pointer;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row1{
+  margin: 0 250px;
+}
+/* Six columns side by side */
+.column1 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  border-bottom: 1px solid #e5e0cc;
+  color: #000000;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: 600;
+}
+.column2 {
+  float: left;
+  width: 25%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.column2 .product-title{
+  margin: 25px 0 9px 0;
+}
+.column2 .product-title a{
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #000000;
+  line-height: 24px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.column2 p{
+  color: #666;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 22px;
+}
+.column1:hover{
+  color: red;
+  border-bottom: 1px solid black;
+}
+/* Add a transparency effect for thumnbail images */
+.demo1 {
+  opacity: 0.8;
+  color: black;
+}
+
+.active1,
+.demo1:hover {
+  opacity: 0.8;
+  color: red;
+}
